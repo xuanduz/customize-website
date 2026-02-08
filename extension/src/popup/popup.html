@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hello World Extension</h1>
+    
+    <div class="message-box">
+      <h2>🎉 Hello World!</h2>
+      <p>This extension displays "Hello World" on every page you visit.</p>
+    </div>
+    
+    <div class="status">
+      <label class="switch">
+        <input type="checkbox" id="globalToggle">
+        <span class="slider"></span>
+      </label>
+      <span id="statusText">Extension Enabled</span>
+    </div>
+    
+    <button id="optionsBtn" class="btn">Open Options</button>
+    
+    <div class="info">
+      <p>Version 1.0.0</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

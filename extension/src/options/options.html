@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extension Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Extension Settings</h1>
+      <p>Configure your page customization preferences</p>
+    </header>
+
+    <section class="section">
+      <h2>Quick Actions</h2>
+      <div class="actions">
+        <button id="testBtn" class="btn btn-primary">Test Hello World</button>
+        <button id="resetBtn" class="btn btn-secondary">Reset Settings</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Style Presets</h2>
+      <div id="presetsList" class="presets-list">
+        <!-- Presets will be loaded here -->
+      </div>
+      <button id="addPresetBtn" class="btn btn-success">+ Add New Preset</button>
+    </section>
+
+    <section class="section">
+      <h2>Domain Settings</h2>
+      <div id="domainsList" class="domains-list">
+        <!-- Domain settings will be loaded here -->
+      </div>
+      <button id="addDomainBtn" class="btn btn-success">+ Add Domain Rule</button>
+    </section>
+
+    <footer>
+      <div class="save-status" id="saveStatus"></div>
+    </footer>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
